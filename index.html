@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✂️ Yukti Verma | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #e6ecf5);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #0078ff;
+      margin-bottom: 20px;
+      transition: transform 0.5s ease;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      color: #0078ff;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin: 25px 0;
+      text-align: left;
+    }
+
+    .section h3 {
+      color: #0078ff;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .skills, .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      background: #0078ff;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+
+    .tag:hover {
+      background: #005fcc;
+    }
+
+    .links a {
+      color: #0078ff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .links a:hover {
+      color: #005fcc;
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="profile.jpg" alt="Yukti Verma" class="profile-img">
+    <h1>✂️ Yukti Verma</h1>
+    <h2>MCA (Hons) Cyber Security | Web Developer | Digital Marketer</h2>
+
+    <div class="section">
+      <h3>📍 About Me</h3>
+      <p>I'm from <strong>Ludhiana, Punjab</strong>. A passionate learner currently pursuing MCA (Hons) in Cyber Security from <strong>LPU, Phagwara</strong>. I enjoy building modern web projects and exploring new tools in digital marketing.</p>
+    </div>
+
+    <div class="section">
+      <h3>🎓 Education</h3>
+      <p><strong>BCA</strong> — GNIMT under PTU</p>
+      <p><strong>MCA (Hons) Cyber Security</strong> — LPU, Phagwara (Pursuing)</p>
+    </div>
+
+    <div class="section">
+      <h3>💡 Skills</h3>
+      <div class="skills">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Digital Marketing</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>🧰 Tools I Use</h3>
+      <div class="tools">
+        <span class="tag">Google Colab</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Kaggle</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>📫 Contact</h3>
+      <p><strong>Email:</strong> <a href="mailto:vyukti3@gmail.com">vyukti3@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+919815482196">+91 9815482196</a></p>
+      <p><strong>City:</strong> Ludhiana, Punjab</p>
+    </div>
+
+    <div class="section links">
+      <h3>🌐 Links</h3>
+      <p><a href="https://github.com/yuktiverma25" target="_blank">GitHub</a> | 
+         <a href="https://www.linkedin.com/in/yukti-verma-b096b9351" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+
+    <footer>
+      © 2025 Yukti Verma | All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>
